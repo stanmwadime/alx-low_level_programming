@@ -1,0 +1,8 @@
+/usr/bin/ld: /tmp/ccie9Eui.o: in function `main':
+0-putchar.c:(.text+0xe): undefined reference to `_putchar'
+/usr/bin/ld: 0-putchar.c:(.text+0x18): undefined reference to `_putchar'
+/usr/bin/ld: 0-putchar.c:(.text+0x22): undefined reference to `_putchar'
+/usr/bin/ld: 0-putchar.c:(.text+0x2c): undefined reference to `_putchar'
+/usr/bin/ld: 0-putchar.c:(.text+0x36): undefined reference to `_putchar'
+/usr/bin/ld: /tmp/ccie9Eui.o:0-putchar.c:(.text+0x40): more undefined references to `_putchar' follow
+collect2: error: ld returned 1 exit status

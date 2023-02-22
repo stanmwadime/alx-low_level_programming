@@ -1,10 +1,12 @@
 #include <stdio.h>
 #include "main.h"
+
 /**
  * main - Prints _putchar followed by a new line
  *
  * Return: 0 (success)
- */
+*/
+
 int main(void)
 {
 
@@ -17,5 +19,6 @@ int main(void)
 	_putchar('a');
 	_putchar('r');
 	_putchar('\n');
+
 	return (0);
 }
