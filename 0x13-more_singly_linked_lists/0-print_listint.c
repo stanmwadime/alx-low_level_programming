@@ -21,23 +21,5 @@ size_t print_listint(const listint_t *h)
 	}
 
 	return (num);
-}
-
-/**
- * main - Entry point of the program
- *
- * Return: Always 0 (Success)
- */
-int main(void)
-{
-	listint_t *head = NULL;
-
-	/* Populate the linked list */
-
-	size_t num_nodes = print_listint(head);
-
-	printf("Number of nodes: %lu\n", num_nodes);
-
-	return (0);
-}
+	}
 
